@@ -51,7 +51,7 @@
               "target": "Package",
               "version": "[5.0.9, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[5.0.9, )"
             },
