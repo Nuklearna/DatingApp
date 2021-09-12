@@ -11,10 +11,7 @@ namespace API.Controllers
     public class UsersController : ControllerBase
     {
         private readonly DataContext _context;
-        public UsersController(DataContext context)
-        {
-            _context = context;
-        }
+        public UsersController(DataContext context) => _context = context;
         [HttpGet]
         public ActionResult<IEnumerable<AppUser>> GetUser(int ID) => _context.User.ToList();
 
