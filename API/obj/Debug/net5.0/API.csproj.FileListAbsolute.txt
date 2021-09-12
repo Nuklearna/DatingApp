@@ -27,3 +27,15 @@ C:\Users\Nina\DatingApp\API\obj\Debug\net5.0\API.dll
 C:\Users\Nina\DatingApp\API\obj\Debug\net5.0\ref\API.dll
 C:\Users\Nina\DatingApp\API\obj\Debug\net5.0\API.pdb
 C:\Users\Nina\DatingApp\API\obj\Debug\net5.0\API.genruntimeconfig.cache
+C:\Users\Nina\DatingApp\API\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
+C:\Users\Nina\DatingApp\API\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Nina\DatingApp\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Nina\DatingApp\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Nina\DatingApp\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Nina\DatingApp\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Nina\DatingApp\API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Nina\DatingApp\API\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Nina\DatingApp\API\bin\Debug\net5.0\SQLitePCLRaw.core.dll
+C:\Users\Nina\DatingApp\API\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Nina\DatingApp\API\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Nina\DatingApp\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
