@@ -14,14 +14,14 @@ namespace API.Services
     {
         private readonly SymmetricSecurityKey _key;
         public TokenService(IConfiguration config) {
-            _key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["Tokens"]));
+            _key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["TokenKey"]));
         }
         public string CreateToken(AppUser user) {
             var claims = new List<Claim> {
                 new Claim(JwtRegisteredClaimNames.NameId, user.UserName)
             };
 
-            var cred = new SigningCredentials(_key, SecurityAlgorithms.HmacSha256Signature)
+            var cred = new SigningCredentials(_key, SecurityAlgorithms.HmacSha512Signature);
 
             var tokenDescriptor = new SecurityTokenDescriptor {
                 Subject = new ClaimsIdentity(claims),
