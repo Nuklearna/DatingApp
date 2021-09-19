@@ -12,6 +12,9 @@ export class NavComponent implements OnInit {
   lists = "Lists";
   messages = "Messages";
   loginTitle = "Login";
+  welcome = "Welcome!";
+  editProfile = "Edit profile";
+  logoutStr = "Logout";
   model: any = {};
   loggedIn: boolean = false;
 
@@ -27,6 +30,10 @@ export class NavComponent implements OnInit {
     }, err => {
       console.log(err)
     })
+  }
+
+  logout() {
+    this.loggedIn = false;
   }
 
 }
