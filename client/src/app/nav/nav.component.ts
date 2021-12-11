@@ -14,7 +14,7 @@ export class NavComponent implements OnInit {
   lists = "Lists";
   messages = "Messages";
   loginTitle = "Login";
-  welcome = "Welcome!";
+  welcome = "Welcome";
   editProfile = "Edit profile";
   logoutStr = "Logout";
   model: any = {};
